@@ -28,9 +28,9 @@ version = "0.4"
 features = ["postgres", "chrono","network-address"]
 version = "0.14.0"
 
-[dependencies.diesel_codegen]
-features = ["postgres"]
-version = "0.14.0"
+
+diesel_infer_schema = "1.2.0"
+
 
 [dependencies.rocket_contrib]
 default-features = false
